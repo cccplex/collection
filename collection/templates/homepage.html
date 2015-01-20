@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Een Aanbod aan Antiek & Volkskunst | De Collectie van Henk en Arina Kamp{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="page-header">
+			  <h1 class="text-center">Welkom op onze Collectie-Paginas.</h1>
+			</div>
+		</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div>
+                <p class="text-center">Op deze pagina kunt u informatie vinden over de antiekstukken in onze collectie. Alles is onderverdeeld naar onderwerp in gallerijen.
+                    Neemt u contact met ons op via volgende gegevens. Aankoop is in overleg.
+                </p>
+                <div>
+                    <img src="{{ STATIC_URL }}img/interieur-tafel.JPG" class="img-circle img-responsive center-block" alt="Interieur met antieke inrichting"></div>
+                </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        Henk en Arina Kamp<br>
+                        Antique Collectors</h3>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Dorfstrasse 21</li>
+                    <li class="list-group-item">49828 Lage</li>
+                    <li class="list-group-item">Deutschland</li>
+                    <li class="list-group-item">Tel: 0049-5941 920398</li>
+                    <li class="list-group-item">Mob: 0031-6533 88480</li>
+                    <li class="list-group-item">antiek@henkkamp.net</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
