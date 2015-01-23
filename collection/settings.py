@@ -122,3 +122,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.core.context_processors.request',
 )
+
+try:
+    from settings_production import *
+except ImportError as e:
+    pass
