@@ -1,9 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+db.sqlite3
 
 # keyinfo etc.
 settings_production.py
 
 # static files for server
 public/static
+
+#backup/temp files
+*.bak
