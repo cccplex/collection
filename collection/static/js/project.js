@@ -7,5 +7,7 @@ $(document).ready(function() {
 		$('ul.navbar-nav li.galleries').addClass('active');
 	} else if (path.substring(0, 17) == '/photologue/photo') {
 		$('ul.navbar-nav li.photos').addClass('active');
+    } else if (path.substring(0, 8) == '/contact') {
+        $('ul.navbar-nav li.contact').addClass('active');
 	}
 })

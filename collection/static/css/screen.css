@@ -12,9 +12,8 @@ div.row img.thumbnail {
 .page-header {
 	margin-top: 20px;
 	margin-bottom: 10px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
 }
 
 td {
@@ -26,16 +25,12 @@ a.btn.btn-default {
 	margin-bottom: 20px;
 }
 
-.navbar-default {
-    background-color: #d3d3a9;
-    font-family: 'Playfair Display', serif;
-}
 
 a {
     color: #101010;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-family: 'Playfair Display SC', serif;
     font-style: italic;
+
 }
 
 a:active,
@@ -45,3 +40,15 @@ a:focus {
     text-decoration: none;
 }
 
+.navbar-default {
+    background-color: #d3d3a9;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-style: normal;
+}
+
+/*.navbar-brand b {
+    font-style: oblique;
+}*/
