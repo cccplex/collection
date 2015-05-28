@@ -52,3 +52,15 @@ a:focus {
 /*.navbar-brand b {
     font-style: oblique;
 }*/
+
+/*
+*/
+.panel-default > .panel-heading {
+    background-color: #E7E7E7;
+}
+.panel {
+    background-color: #d3d3a9;
+}
+.panel > .list-group .list-group-item {
+    background-color: #d3d3a9;
+}

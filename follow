@@ -2,3 +2,5 @@ uwsgi-docs:
     Django_and_nginx
         Remember: you may need some extra packages for uwsgi to support it. 
         Like `libpcre3-dev`
+python imaging library:
+    may need openjpeg2 package on archlinux
