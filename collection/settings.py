@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.henkkamp.net']
 
 
 # Application definition
@@ -124,6 +124,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 try:
-    from settings_production import *
+    from collection.settings_production import *
 except ImportError as e:
     pass
