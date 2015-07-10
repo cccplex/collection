@@ -11,3 +11,4 @@ public/static
 
 #backup/temp files
 *.bak
+*.swp

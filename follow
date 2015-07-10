@@ -4,3 +4,6 @@ uwsgi-docs:
         Like `libpcre3-dev`
 python imaging library:
     may need openjpeg2 package on archlinux
+postgresql
+    apt: postgresql postgresql-contrib libpq-dev 
+    pip3: psycopg2
