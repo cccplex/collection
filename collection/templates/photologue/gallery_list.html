@@ -2,6 +2,12 @@
 {% load i18n %}
 
 {% block title %}{% trans "All galleries" %}{% endblock %}
+{% block description %}
+    {% if object_list %}
+        {% for gallery in object_list %}{{ gallery.title }}
+        {% endfor %}
+    {% endif %}
+{% endblock %}
 
 {% block content %}
 
