@@ -38,22 +38,20 @@
 
 
             <li class="galleries dropdown">
-                <a href="{% url 'photologue:gallery-list' %}">Galleries</a>
+                <a data-target="#" href="" class="dropdown-toggle" data-toggle="dropdown">
+                    Gallerijen<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li class="sub-page"><a href="{% url 'photologue:gallery-list' %}">Alle Gallerijen</a></li>
+                    {% for nav_gallery in nav_galleries %}
+                    <li class="sub-page"><a href="{{ nav_gallery.get_absolute_url }}">{{ nav_gallery.title }}</a></li>
+                    {% endfor %}
+                </ul>
             </li>
-            <!--
-     <a data-target="#" href="" class="dropdown-toggle" data-toggle="dropdown">
-               Gallery views<b class="caret"></b>
-           </a>
-     <ul class="dropdown-menu">
-      <li class="sub-page"><a href="{# url 'photologue:pl-gallery-archive' #}">Date views</a></li>
-      <li class="sub-page"><a href="{# url 'photologue:gallery-list' #}">List views</a></li>
-     </ul>
-    </li>
-        -->
 
 
             <li class="photos dropdown">
-                <a href="{% url 'photologue:pl-photo-archive' %}">Photos</a>
+                <a href="{% url 'photologue:photo-list' %}">Photos</a>
             </li>
             <!--
      <a data-target="#" href="" class="dropdown-toggle" data-toggle="dropdown">
