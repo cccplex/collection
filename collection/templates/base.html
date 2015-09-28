@@ -25,8 +25,12 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span></button>
-        <a class="navbar-brand" href="/"><b>Henk &amp; Arina Kamp - Antique Collectors</b></a>
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><b>Henk &amp; Arina Kamp</b><b class="hidden-xs"> - Antique Collectors</b></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,7 +39,6 @@
             <li class="home">
                 <a href="/">Home</a>
             </li>
-
 
             <li class="galleries dropdown">
                 <a data-target="#" href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -49,21 +52,9 @@
                 </ul>
             </li>
 
-
             <li class="photos dropdown">
                 <a href="{% url 'photologue:photo-list' %}">Photos</a>
             </li>
-            <!--
-     <a data-target="#" href="" class="dropdown-toggle" data-toggle="dropdown">
-               Photo views<b class="caret"></b>
-           </a>
-     <ul class="dropdown-menu">
-      <li class="sub-page"><a href="{# url 'photologue:pl-photo-archive' #}">Date views</a></li>
-      <li class="sub-page"><a href="{# url 'photologue:photo-list' #}">List views</a></li>
-     </ul>
-    </li>
-        -->
-
 
             <li class="contact">
                 <a href="{% url 'contact' %}">Contact</a>
