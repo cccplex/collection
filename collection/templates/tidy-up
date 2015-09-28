@@ -1,0 +1,1 @@
+tidy5 -m --literal-attributes yes --fix-uri no -i --indent-attributes yes --indent-spaces 4 -w 99 --vertical-space yes --tidy-mark no base.html

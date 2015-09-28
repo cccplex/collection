@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.sitemaps',
     'photologue',
+    'photologue_custom',
     'sortedm2m',
 )
 
