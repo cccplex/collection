@@ -1,0 +1,66 @@
+/* Custom style for henkkamp.net */
+
+html, body, .container {
+    background-color: #e3e3b9;
+}
+
+div.row img.thumbnail {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.page-header {
+	margin-top: 20px;
+	margin-bottom: 10px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+}
+
+td {
+	width: 100px;
+}
+
+a.btn.btn-default {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+a {
+    color: #101010;
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+
+}
+
+a:active,
+a:hover,
+a:focus {
+    color: #807060;
+    text-decoration: none;
+}
+
+.navbar-default {
+    background-color: #d3d3a9;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-style: normal;
+}
+
+/*.navbar-brand b {
+    font-style: oblique;
+}*/
+
+/*
+*/
+.panel-default > .panel-heading {
+    background-color: #E7E7E7;
+}
+.panel {
+    background-color: #d3d3a9;
+}
+.panel > .list-group .list-group-item {
+    background-color: #d3d3a9;
+}

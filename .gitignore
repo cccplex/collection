@@ -10,7 +10,7 @@ db.sqlite3
 settings_production.py
 
 # static files for server
-public/static
+#public/static
 
 #backup/temp files
 *.bak
